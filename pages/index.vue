@@ -42,7 +42,7 @@
 import { useMeta } from "~/composables/useMeta";
 
 const shareToTelegram = () => {
-  const currentUrl = window.location.href; // Hozirgi sahifa URL'si
+  const currentUrl = window.location.href;
   const telegramShareUrl = `https://t.me/share/url?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(
     data.value?.title,
   )}`;
