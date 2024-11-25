@@ -55,7 +55,7 @@ const copyLink = () => {
   navigator.clipboard
     .writeText(currentUrl)
     .then(() => {
-      console.log("Sahifa URL nusxalandi:", currentUrl);
+      console.log("Sahifa URL nusxalandi upd:", currentUrl);
       alert("Sahifa URL nusxalandi!");
     })
     .catch((err) => {
