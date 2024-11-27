@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
 
   modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxt/eslint"],
-  css: ["~/assets/icomoon/style.css"],
+  css: ["~/assets/icomoon/style.css", "~/assets/css/fonts.css"],
   eslint: {},
   compatibilityDate: "2024-09-08",
 });
